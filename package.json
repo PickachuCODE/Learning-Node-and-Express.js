@@ -1,0 +1,12 @@
+{
+  "name": "Learning-Node-and-Express.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node app.js"
+  },
+  "keywords": [],
+  "author": "pickachuCode",
+  "license": "ISC"
+}
