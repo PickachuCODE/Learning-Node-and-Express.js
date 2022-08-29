@@ -1,0 +1,91 @@
+*{
+   margin:0; 
+   box-sizing: border-box;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 10vw ;
+    background: black;
+    color: white;
+}
+.formBox{
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: grid;
+    padding: 50px;
+    width: 500px;
+    box-shadow: 2px 7px 20px rgba(0, 0, 0, .2);
+}
+.input{
+    margin: 1px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+input{
+    font-size: 20px;
+    margin-top: 10px;
+    width: 400px;
+    background: none;
+    border: 2px solid black;
+    outline: none;
+    transition: 1s;
+    color: black;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+input:focus{
+    transition: 2;
+    background: black;
+    border: 2px solid black;
+    color: white;
+}
+button{
+    padding: 20px 25px;
+    border: none;
+    margin-top: 30px;
+    background: black;
+    color: white;
+}
+.SignIn{
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formTitle{
+    margin-bottom: 30px;
+}
+.passwordWarp{
+    display: flex;
+    gap: calc(200px - 180px);
+    align-items: center;
+}
+.passwordWarp .passwordVerify input{
+    width: 165px;
+}
+.showPassword{
+    background: black;
+    padding: 0px;
+    padding-top: -10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    font-size: larger;
+    color: white;
+}
+.nameInput{
+    margin-top: 10px;
+}
+.passwordWarning{
+    font-size: smaller;
+    font-weight: 800;
+    padding-top: 5px;
+    color: red;
+}

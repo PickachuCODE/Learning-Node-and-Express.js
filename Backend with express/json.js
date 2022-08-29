@@ -30,7 +30,7 @@ const users = [
         name: "ada", id: 1},
         {name: "obi", id: 2},
         {name: "dave", id: 3},
-        {name: "asm", id: 4}
+        {name: "sam", id: 4}
     
 ]
 
